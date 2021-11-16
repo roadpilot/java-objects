@@ -11,6 +11,12 @@ public class Properties {
 
         alice.displayCustomer();
         bob.displayCustomer();
+
+        bob = alice;
+        alice.age = 55;
+
+        alice.displayCustomer();
+        bob.displayCustomer();
     }      
 }
 
