@@ -11,11 +11,25 @@ public class Calculator {
     //     System.out.println(x-y);
     // }
 
-    public int addSelf(int x) {
-        return x + x;
-    }    
+    // public int addSelf(int x) {
+    //     return x + x;
+    // }    
 
-    public double subtract2(int x, double y) {
-         return x - y;
+    // public double subtract2(int x, double y) {
+    //      return x - y;
+    // }    public int addSelf(int x) {
+    //     return x + x;
+    // }    
+
+    public double add(double x, double y) {
+         return x + y;
+    }
+
+    public int add(int x, int y) {
+         return x + y;
+    }
+
+    public String add(String x, String y) {
+         return x + " " + y;
     }
 }
