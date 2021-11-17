@@ -7,6 +7,7 @@ public class Customer {
     public String address;
     public int    orderNum;
     public int    age;
+    
 
     // Methods / behaviors
     public void displayCustomer() {
